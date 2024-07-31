@@ -12,11 +12,15 @@ struct ContentView: View {
         NavigationStack {
             VStack {
                 //logo
-                Image(systemName: "heart")
+                // can dina make background white and closer to edge of cirles?
+                Image("logo")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .cornerRadius(30)
                 //name
                 Text("FEMINOLOGY")
                 //slogan
-                Text("slogan alalalallalala")
+                //Text("slogan alalalallalala")
                 
                 Spacer()
                 

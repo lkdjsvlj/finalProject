@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD26CCF42C5A695E0057B7AE /* team.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26CCF32C5A695E0057B7AE /* team.swift */; };
+		BD26CCF62C5A69C00057B7AE /* linkHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26CCF52C5A69C00057B7AE /* linkHub.swift */; };
+		BD26CCF82C5A69FE0057B7AE /* littleWins.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26CCF72C5A69FE0057B7AE /* littleWins.swift */; };
+		BD26CCFA2C5A6A210057B7AE /* profiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26CCF92C5A6A210057B7AE /* profiles.swift */; };
+		BD26CCFC2C5A6A770057B7AE /* educators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26CCFB2C5A6A770057B7AE /* educators.swift */; };
+		BD26CCFE2C5A6AAE0057B7AE /* womenSTEM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26CCFD2C5A6AAE0057B7AE /* womenSTEM.swift */; };
+		BD26CD002C5A6AEC0057B7AE /* womenArts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26CCFF2C5A6AEC0057B7AE /* womenArts.swift */; };
+		BD26CD022C5A6B280057B7AE /* womenOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26CD012C5A6B280057B7AE /* womenOC.swift */; };
+		BD26CD042C5A6B610057B7AE /* womenQueer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26CD032C5A6B610057B7AE /* womenQueer.swift */; };
+		BD26CD082C5A6B960057B7AE /* michelleInterview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26CD072C5A6B960057B7AE /* michelleInterview.swift */; };
+		BD26CD0A2C5A6BF40057B7AE /* ratiInterview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26CD092C5A6BF40057B7AE /* ratiInterview.swift */; };
+		BD26CD0C2C5A6C200057B7AE /* pearlInterview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26CD0B2C5A6C200057B7AE /* pearlInterview.swift */; };
+		BD26CD0E2C5A6C4B0057B7AE /* traceyInterview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26CD0D2C5A6C4B0057B7AE /* traceyInterview.swift */; };
+		BD26CD102C5A6C5A0057B7AE /* manyaInterview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26CD0F2C5A6C5A0057B7AE /* manyaInterview.swift */; };
+		BD26CD122C5A6C670057B7AE /* quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26CD112C5A6C670057B7AE /* quiz.swift */; };
 		BD9FAE3B2C53D38F0008878E /* finalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FAE3A2C53D38F0008878E /* finalProjectApp.swift */; };
 		BD9FAE3D2C53D38F0008878E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9FAE3C2C53D38F0008878E /* ContentView.swift */; };
 		BD9FAE3F2C53D3910008878E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9FAE3E2C53D3910008878E /* Assets.xcassets */; };
@@ -34,6 +49,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD26CCF32C5A695E0057B7AE /* team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = team.swift; sourceTree = "<group>"; };
+		BD26CCF52C5A69C00057B7AE /* linkHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linkHub.swift; sourceTree = "<group>"; };
+		BD26CCF72C5A69FE0057B7AE /* littleWins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = littleWins.swift; sourceTree = "<group>"; };
+		BD26CCF92C5A6A210057B7AE /* profiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profiles.swift; sourceTree = "<group>"; };
+		BD26CCFB2C5A6A770057B7AE /* educators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = educators.swift; sourceTree = "<group>"; };
+		BD26CCFD2C5A6AAE0057B7AE /* womenSTEM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = womenSTEM.swift; sourceTree = "<group>"; };
+		BD26CCFF2C5A6AEC0057B7AE /* womenArts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = womenArts.swift; sourceTree = "<group>"; };
+		BD26CD012C5A6B280057B7AE /* womenOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = womenOC.swift; sourceTree = "<group>"; };
+		BD26CD032C5A6B610057B7AE /* womenQueer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = womenQueer.swift; sourceTree = "<group>"; };
+		BD26CD072C5A6B960057B7AE /* michelleInterview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = michelleInterview.swift; sourceTree = "<group>"; };
+		BD26CD092C5A6BF40057B7AE /* ratiInterview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ratiInterview.swift; sourceTree = "<group>"; };
+		BD26CD0B2C5A6C200057B7AE /* pearlInterview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pearlInterview.swift; sourceTree = "<group>"; };
+		BD26CD0D2C5A6C4B0057B7AE /* traceyInterview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = traceyInterview.swift; sourceTree = "<group>"; };
+		BD26CD0F2C5A6C5A0057B7AE /* manyaInterview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manyaInterview.swift; sourceTree = "<group>"; };
+		BD26CD112C5A6C670057B7AE /* quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz.swift; sourceTree = "<group>"; };
 		BD9FAE372C53D38F0008878E /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9FAE3A2C53D38F0008878E /* finalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectApp.swift; sourceTree = "<group>"; };
 		BD9FAE3C2C53D38F0008878E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +126,21 @@
 			children = (
 				BD9FAE3A2C53D38F0008878E /* finalProjectApp.swift */,
 				BD9FAE3C2C53D38F0008878E /* ContentView.swift */,
+				BD26CCF32C5A695E0057B7AE /* team.swift */,
+				BD26CCF52C5A69C00057B7AE /* linkHub.swift */,
+				BD26CCF72C5A69FE0057B7AE /* littleWins.swift */,
+				BD26CCF92C5A6A210057B7AE /* profiles.swift */,
+				BD26CCFB2C5A6A770057B7AE /* educators.swift */,
+				BD26CCFD2C5A6AAE0057B7AE /* womenSTEM.swift */,
+				BD26CCFF2C5A6AEC0057B7AE /* womenArts.swift */,
+				BD26CD012C5A6B280057B7AE /* womenOC.swift */,
+				BD26CD032C5A6B610057B7AE /* womenQueer.swift */,
+				BD26CD072C5A6B960057B7AE /* michelleInterview.swift */,
+				BD26CD092C5A6BF40057B7AE /* ratiInterview.swift */,
+				BD26CD0B2C5A6C200057B7AE /* pearlInterview.swift */,
+				BD26CD0D2C5A6C4B0057B7AE /* traceyInterview.swift */,
+				BD26CD0F2C5A6C5A0057B7AE /* manyaInterview.swift */,
+				BD26CD112C5A6C670057B7AE /* quiz.swift */,
 				BD9FAE3E2C53D3910008878E /* Assets.xcassets */,
 				BD9FAE402C53D3910008878E /* Preview Content */,
 			);
@@ -257,8 +302,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD26CD022C5A6B280057B7AE /* womenOC.swift in Sources */,
+				BD26CD0C2C5A6C200057B7AE /* pearlInterview.swift in Sources */,
+				BD26CCFC2C5A6A770057B7AE /* educators.swift in Sources */,
+				BD26CD0A2C5A6BF40057B7AE /* ratiInterview.swift in Sources */,
+				BD26CD0E2C5A6C4B0057B7AE /* traceyInterview.swift in Sources */,
+				BD26CCFE2C5A6AAE0057B7AE /* womenSTEM.swift in Sources */,
+				BD26CD102C5A6C5A0057B7AE /* manyaInterview.swift in Sources */,
+				BD26CD122C5A6C670057B7AE /* quiz.swift in Sources */,
 				BD9FAE3D2C53D38F0008878E /* ContentView.swift in Sources */,
+				BD26CD042C5A6B610057B7AE /* womenQueer.swift in Sources */,
+				BD26CCF62C5A69C00057B7AE /* linkHub.swift in Sources */,
 				BD9FAE3B2C53D38F0008878E /* finalProjectApp.swift in Sources */,
+				BD26CCF82C5A69FE0057B7AE /* littleWins.swift in Sources */,
+				BD26CD082C5A6B960057B7AE /* michelleInterview.swift in Sources */,
+				BD26CCF42C5A695E0057B7AE /* team.swift in Sources */,
+				BD26CCFA2C5A6A210057B7AE /* profiles.swift in Sources */,
+				BD26CD002C5A6AEC0057B7AE /* womenArts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
