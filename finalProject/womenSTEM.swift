@@ -19,6 +19,8 @@ struct womenSTEM: View {
                   Image("manya")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fill)
+                    .cornerRadius(10)
+                    .shadow(radius:10)
                     .padding()
                   HStack(spacing: 1) {
                     Text("manya")
@@ -30,15 +32,15 @@ struct womenSTEM: View {
                     Spacer()
                   } //hstack
                   ZStack {
-                    Color("new_purple")
+                    Color("new_yellow")
                     VStack {
                       Text("i am a year 12 student, currently studying physics, maths, and computer science. i'm 18 and doing my summer job as an instructor assistant at kode with klossy.")
-                        .foregroundColor(Color.white)
+                        .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)
                         .padding()
                       NavigationLink(destination: manyaInterview()) {
-                        Text("full interview")
-                          .foregroundColor(Color.yellow)
+                        Text("click here for full interview")
+                          .foregroundColor(Color.blue)
                       }//nlink
                     }//vstack
                   }//zstack
@@ -48,12 +50,18 @@ struct womenSTEM: View {
                 .shadow(radius:10)
                 .padding()
                 // end manya
+                  
+                  
+                  
+                  
+                  
+                  
                 // michelle
                 VStack(alignment: .leading, spacing: 20.0) {
                   Image("michelle")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fill)
-                    .cornerRadius(30)
+                    .cornerRadius(10)
                     .shadow(radius:10)
                     .padding()
                   HStack(alignment: .bottom, spacing: 1) {
@@ -69,11 +77,11 @@ struct womenSTEM: View {
                     Color("new_blue")
                     VStack{
                       Text("i have taught 7th grade maths for the last four years, and i am going to teach algebra one in the fall. i grew up in northern Virginia, lived in Baltimore and i currently live in Philadelphia.")
-                      //.foregroundColor(Color.white)
+                      .foregroundColor(Color.white)
                         .multilineTextAlignment(.center)
                         .padding()
                       NavigationLink(destination: michelleInterview()) {
-                        Text("full interview")
+                        Text("click here for full interview")
                           .foregroundColor(Color.yellow)
                       }//nlink
                     }//vstack
@@ -84,11 +92,19 @@ struct womenSTEM: View {
                 .shadow(radius:10)
                 .padding()
                 // end michelle
+                  
+                  
+                  
+                  
+                  
+                  
                 // pearl
                 VStack(alignment: .leading, spacing: 20.0) {
                   Image("pearl")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fill)
+                    .cornerRadius(10)
+                    .shadow(radius:10)
                     .padding()
                   HStack(spacing: 1) {
                     Text("pearl")
@@ -107,7 +123,7 @@ struct womenSTEM: View {
                         .multilineTextAlignment(.center)
                         .padding()
                       NavigationLink(destination: pearlInterview()) {
-                        Text("full interview")
+                        Text("click here for full interview")
                           .foregroundColor(Color.yellow)
                       }//nlink
                     }//vstack
@@ -118,11 +134,19 @@ struct womenSTEM: View {
                 .shadow(radius:10)
                 .padding()
                 // end pearl
+                  
+                  
+                  
+                  
+                  
+                  
                 // rati
                 VStack(alignment: .leading, spacing: 20.0) {
                   Image("rati")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fill)
+                    .cornerRadius(10)
+                    .shadow(radius:10)
                     .padding()
                   HStack(spacing: 1) {
                     Text("rati")
@@ -134,14 +158,14 @@ struct womenSTEM: View {
                     Spacer()
                   } //hstack
                   ZStack {
-                    Color("new_purple")
+                    Color("new_pink")
                     VStack {
                       Text("i'm 23 and studied history & politics at Cambridge! i'm from Pakistan but currently live in London. i work in asset management at BlackRock.")
                         .foregroundColor(Color.white)
                         .multilineTextAlignment(.center)
                         .padding()
                       NavigationLink(destination: ratiInterview()) {
-                        Text("full interview")
+                        Text("click here for full interview")
                           .foregroundColor(Color.yellow)
                       }//nlink
                     }//vstack
@@ -152,11 +176,19 @@ struct womenSTEM: View {
                 .shadow(radius:10)
                 .padding()
                 // end rati
+                  
+                  
+                  
+                  
+                  
                 // tracey
+                  
                  VStack(alignment: .leading, spacing: 20.0) {
                   Image("tracey")
                   .resizable(resizingMode: .stretch)
                   .aspectRatio(contentMode: .fill)
+                  .cornerRadius(10)
+                  .shadow(radius:10)
                   .padding()
                   HStack(spacing: 1) {
                   Text("tracey")
@@ -168,7 +200,7 @@ struct womenSTEM: View {
                   Spacer()
                   } //hstack
                   ZStack{
-                   Color.blue
+                   Color("new_purple")
                   VStack{
                    Text( "i live in Madison, WI, USA. i'm 33 years old and i'm a researcher. i study art education. i'm a former secondary school teacher and an artist.")
                    .foregroundColor(Color.white)
@@ -182,7 +214,7 @@ struct womenSTEM: View {
                   }//zstack
                  }//vstack
                  .background(Rectangle().foregroundColor(.white))
-                 .cornerRadius(10)
+                 .cornerRadius(30)
                  .shadow(radius:10)
                  .padding()
                  // end tracey

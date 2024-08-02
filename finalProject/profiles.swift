@@ -10,51 +10,95 @@ import SwiftUI
 struct profiles: View {
     var body: some View {
         NavigationStack {
-              VStack {
-                Spacer ()
-                Text("what would you like to explore?")
-                Spacer()
+            ZStack{
+                RadialGradient(gradient: Gradient(colors: [Color.white, Color("new_orange")]), center: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, startRadius: /*@START_MENU_TOKEN@*/5/*@END_MENU_TOKEN@*/, endRadius: /*@START_MENU_TOKEN@*/500/*@END_MENU_TOKEN@*/)
+                    .ignoresSafeArea()
                 VStack {
-                  NavigationLink(destination: educators()) {
-                    Text("educators")
-                  }
-                  NavigationLink(destination: womenSTEM()) {
-                    Text("women in STEM")
-                  }
-                  NavigationLink(destination: womenArts()) {
-                    Text("women in the arts")
-                  }
-                  NavigationLink(destination: womenOC()) {
-                    Text("women of colour")
-                  }
-                  NavigationLink(destination: womenQueer()) {
-                    Text("queer women")
-                  }
+                    Spacer ()
+                    Text("What would you like to explore?")
+                        .foregroundColor(Color("new_purple"))
+                        .multilineTextAlignment(.center)
+                        .font(.title)
+                        .underline()
+                    Text("")
+                    VStack {
+                        NavigationLink(destination: educators()) {
+                            Text("educators")
+                                .font(.title)
+                        }
+                        NavigationLink(destination: womenSTEM()) {
+                            Text("women in STEM")
+                                .font(.title)
+                        }
+                        NavigationLink(destination: womenArts()) {
+                            Text("women in the arts")
+                                .font(.title)
+                        }
+                        NavigationLink(destination: womenOC()) {
+                            Text("women of colour")
+                                .font(.title)
+                        }
+                        NavigationLink(destination: womenQueer()) {
+                            Text("queer women")
+                                .font(.title)
+                        }
+                        //this one doesnt go to actual pagew
+                        NavigationLink(destination: womenQueer()) {
+                            Text("disabled women")
+                                .font(.title)
+                        }
+                    } // vstack
+                    Spacer()
                 } // vstack
-                Spacer()
-              } // vstack
+            }
               .toolbar {
-                ToolbarItemGroup(placement: .status) {
-                  NavigationLink(destination: ContentView()) {
-                    Image(systemName: "house.circle")
+                  ToolbarItemGroup(placement: .status) {
+                      ZStack{
+                          Rectangle()
+                              .fill(Color.white)
+                              .frame(width:400, height:50)
+                              .opacity(0.9)
+                              .cornerRadius(100)
+                          HStack{
+//                                NavigationLink(destination: ContentView()) {
+//                                    VStack{
+//                                        Image(systemName: "house.circle")
+//                                        Text("Home")
+//                                    }
+//                                }
+                              NavigationLink(destination: linkHub()) {
+                                  //Image(systemName: "link")
+                                  VStack{
+                                      Image(systemName: "link.circle")
+                                      Text("Links")
+                                  }
+                                  
+                              }
+                              NavigationLink(destination: littleWins()) {
+                                  VStack{
+                                      Image(systemName: "square.and.pencil.circle")
+                                      Text("Little Wins")
+                                  }
+                              }
+                              NavigationLink(destination: profiles()) {
+                                  VStack{
+                                      Image(systemName: "person.crop.circle")
+                                      Text("Profiles")
+                                  }
+                                 
+                              }
+                              NavigationLink(destination: quiz()) {
+                                  VStack{
+                                      Image(systemName: "questionmark.circle")
+                                      Text("Quiz")
+                                  }
+                                  
+                              }
+                          } //hstack
+                      } //zstack
                   }
-                  NavigationLink(destination: linkHub()) {
-                    //Image(systemName: "link")
-                    Image(systemName: "link.circle")
-                  }
-                  NavigationLink(destination: littleWins()) {
-                    Image(systemName: "square.and.pencil.circle")
-                  }
-                  NavigationLink(destination: profiles()) {
-                    Image(systemName: "person.crop.circle")
-                    //Image(systemName: "person")
-                  }
-                  NavigationLink(destination: quiz()) {
-                    Image(systemName: "questionmark.circle")
-                  }
-                }
-              } // toolbar
-              //.navigationTitle("last question")
+                  
+              } //toolbar
               .navigationBarTitleDisplayMode(.inline)
               .navigationBarHidden(true)
             } // nstack

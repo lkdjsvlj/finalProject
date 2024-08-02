@@ -22,7 +22,8 @@ struct ratiInterview: View {
               }//vstack
               TabView{
                VStack{
-               Text("Rati")
+                   Spacer()
+                   Text("Rati").underline()
                 .font(.title)
                 .fontWeight(.bold)
                Spacer()
@@ -35,6 +36,7 @@ struct ratiInterview: View {
                Spacer()
                Text("What are some challenges you've overcome from working in that field?")
                 .fontWeight(.regular)
+                .multilineTextAlignment(.center)
                 .underline()
                 .font(.headline)
                Text("I've honestly struggled with all the technical skills/abilities and it was soemthing that l really needed to put immense hard work into but eventually l am getting the hang of it! Also l experience imposter syndrome and it was definitely something that has weighed down on me during my career.")
@@ -42,12 +44,14 @@ struct ratiInterview: View {
                Spacer()
                Text("Words of Advice for other women who want to be in that field!")
                 .fontWeight(.regular)
+                .multilineTextAlignment(.center)
                 .underline()
                 .font(.headline)
                Text("You should be confident in your own work no matter what because everything is a learning exprience and slowly build your confidence. Fake it till you make it!! It is also super important to ⁠build a strong network + ask questions and build a strong understanding of markets by regularly keeping up with them.")
                 .multilineTextAlignment(.center)
                Text("swipe -> for more")
                 .foregroundColor(Color.yellow)
+                   Spacer()
                } //vstack
                .padding()
                VStack{

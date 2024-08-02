@@ -23,7 +23,7 @@ struct michelleInterview: View {
                TabView{
                  VStack{
                    Spacer()
-                   Text("michelle")
+                     Text("Michelle").underline()
                      .font(.title)
                      .fontWeight(.bold)
                    /*Spacer()
@@ -50,6 +50,7 @@ struct michelleInterview: View {
                    Spacer()
                    Text("swipe for more")
                      .foregroundColor(Color.yellow)
+                     Spacer()
                  } //vstack
                  .padding()
                  VStack{
@@ -58,15 +59,18 @@ struct michelleInterview: View {
                      .fontWeight(.regular)
                      .underline()
                      .font(.headline)
-                   Text("i think pros are getting to work with young people each day, and you know helping them along their journey wherever they are. I think another pro is that it's a very interactive job. i'm on my feet, i'm working with lots of people, every day is different. it's very engaging - i'm never bored at work.")
+                     Text("i think pros are getting to work with young people each day, and you know helping them along their journey wherever they are. I think another pro is that it's a very interactive job. i'm on my feet, i'm working with lots of people, every day is different. it's very engaging - i'm never bored at work.")
+                         .multilineTextAlignment(.center)
                    Text("i think some cons are that it can be very challenging, just with what's asked of teachers, and then the resources we have to execute those asks. schools are often under-resourced and underfunded, so sometimes those conditions can make a challenging job even more challenging.")
                      .multilineTextAlignment(.center)
                    Spacer()
                    Text("do you have any words of advice for the users of Feminology?")
                      .fontWeight(.regular)
+                     .multilineTextAlignment(.center)
                      .underline()
                     .font(.headline)
-                   Text("i think general advice for women is to take up space. there are spaces that you might want to occupy that might feel unwelcoming, and i just want to remind you that you have as much right to be there as anyone else in the room. take up space with what you're doing and your opinions and how you're moving about it.")
+                     Text("i think general advice for women is to take up space. there are spaces that you might want to occupy that might feel unwelcoming, and i just want to remind you that you have as much right to be there as anyone else in the room. take up space with what you're doing and your opinions and how you're moving about it.")
+                         .multilineTextAlignment(.center)
                    Text("in this field, i would say just to not lose sight of yourself in the job. i think the job of a teacher can be very consuming, but don't lose sight of yourself in that process.")
                      .multilineTextAlignment(.center)
                    Spacer()
